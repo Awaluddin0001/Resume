@@ -1,0 +1,221 @@
+body{
+
+}
+
+/* header */
+.logaw{
+  width: 7rem;
+}
+.teng{
+padding: 2% 8% 0%;
+height: 47rem;
+}
+.navbar .navbar-nav .nav-link {
+  font-weight: 600;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.navbar .navbar-nav .hij {
+  color: #00E739;
+  font-weight: 600;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+#tamAtas{
+  background-image: url(../img/open-photo.png);
+  background-repeat: no-repeat;
+  height: 48rem;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.so-ic{
+  color: #fff;
+  padding: 0% 0.5%;
+}
+
+/* introduction */
+
+.intro{
+  padding: 18% 0%;
+}
+
+h1{
+  color: #00E739;
+  font-weight: 750;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+p{
+  color: #ababab;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+/* tentang saya */
+
+#absa{
+  background-color: #101010;
+}
+
+.myphoto{
+  width: 20rem;
+  border-color: #fff;
+  border-width: 10px;
+  border-style: solid;
+  margin: 8% 0% 0% 8%;
+}
+
+.img-ts{
+  text-align: center;
+  padding: 3%;
+}
+
+.txt-ts{
+  text-align: justify;
+  color: #fff;
+  margin: 5% 0%;
+  padding: 3% 10% 0% 1%;
+}
+
+.par-ex{
+  font-size: 1rem;
+}
+
+.ca-name{
+  border-color: #00E739;
+  border-width: medium;
+  border-style: solid;
+  text-align: justify;
+  margin-right: 0;
+  width: 100%;
+  padding: 3%;
+  line-height: 0.8;
+  margin-top: 3%;
+}
+
+.txt-ts1{
+  color: #fff;
+  font-size: 1rem;
+}
+.txt-kan{
+  display: inline-block;
+  margin-left: 18%;
+}
+.txt-kan1{
+  display: inline-block;
+  margin-left: 8%;
+}
+
+/* service */
+
+#ser-sec{
+  background-color: #fff;
+  text-align: center;
+  margin: 2% 5%;
+}
+
+.hed-ser{
+  text-align: left;
+  margin-bottom: 3%;
+}
+
+.fic{
+  color: #00E739;
+  padding: 3%;
+}
+
+.ser-txt{
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.ser-pa{
+  font-size: 1.2rem;
+  padding: 1% 10%;
+  color: #bfbfbf;
+}
+
+.ser-col{
+  color: #00E739;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+/* Skill */
+
+#sk-sec{
+  background-color: #101010;
+  padding: 2% 5% 4%;
+}
+
+.sk-col{
+  color: #fff;
+  padding: 2%;
+}
+
+h4{
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.sk-ja{
+  margin: 0;
+  padding: 0.5%;
+  height: 40px;
+}
+
+.pad-sk{
+  padding: 2%;
+}
+
+/* experienc */
+
+#ex-sec{
+  background-color: #fff;
+  padding: 2% 5%;
+}
+
+.ex-pt{
+  padding-top: 2%;
+}
+
+hr{
+  width: 10rem;
+  color: #fff;
+  border-top-style: dotted;
+  border-width: 1rem;
+  border-color: #00E739;
+}
+
+/* education */
+
+#ed-sec{
+  background-color: #101010;
+  padding: 2% 5% 4%;
+}
+
+.ed-pt{
+  color: #fff;
+}
+
+.ed-d{
+  padding-left: 2%;
+}
+
+@media (max-width: 990px){
+  #absa{
+    text-align: center;
+  }
+  .txt-ts{
+    text-align: center;
+    padding: 0 10%;
+  }
+}
